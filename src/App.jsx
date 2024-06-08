@@ -6,6 +6,8 @@ import './App.css'
 import  Sidebar  from './components/sidebar';
 import BlogPost from './components/blogPost';
 import Feeds from './components/feeds';
+import { Trending } from './components/Trending';
+import Screen from './components/screen'
 
 
 function App() {
@@ -14,9 +16,11 @@ function App() {
       {/* <Routes>
         <Route path='/' element={sidebar}></Route>
       </Routes> */}
-      <Sidebar/>
+      {/* <Sidebar/>
       <BlogPost/>
       <Feeds/>
+      <Trending/> */}
+      <Screen/>
     </div>
    
   )

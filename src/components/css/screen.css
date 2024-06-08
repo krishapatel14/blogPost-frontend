@@ -1,0 +1,27 @@
+.main{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.nonscroll{
+    /* background-color: rgb(55, 255, 0); */
+    position: fixed;
+    width:25%;
+    /* border: 2px solid black; */
+    left: 0;
+}
+.scroll_content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    height: fit-content;
+    /* overflow-y: auto; */
+    margin-left:15%;
+    width: 45%;
+}
+.trending{
+    width: 30%;
+    /* margin-left:10% */
+}

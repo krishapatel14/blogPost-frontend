@@ -7,7 +7,8 @@ const blogPost = () => {
     <>
   <div className="tweet-box">
     <img src={profile} alt="user" />
-    <p>What's happening?!</p>
+    <input type='text' placeholder="What's happening?!"/>
+
     <div className="tweet-icons">
       <ion-icon name="image-outline" className="tweet-icon" />
       <ion-icon name="color-palette-outline" className="tweet-icon" />
